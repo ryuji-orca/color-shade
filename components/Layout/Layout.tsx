@@ -1,12 +1,13 @@
 import Head from 'next/head';
 import { FC } from 'react';
 import { ToastContainer } from 'react-toastify';
+import { Footer } from '../Footer';
 import { Header } from '../Header';
 import 'react-toastify/dist/ReactToastify.css';
 
 type Props = {
-  children: React.ReactNode
-}
+  children: React.ReactNode;
+};
 
 export const Layout: FC<Props> = ({ children }) => {
   return (
@@ -18,6 +19,7 @@ export const Layout: FC<Props> = ({ children }) => {
       </Head>
       <Header />
       <main>{children}</main>
+      <Footer />
       <ToastContainer position='top-right' autoClose={3000} theme='dark' />
     </>
   );

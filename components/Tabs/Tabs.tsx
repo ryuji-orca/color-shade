@@ -8,7 +8,7 @@ export const Tabs: FC = () => {
   const { classNames } = useTabs();
 
   return (
-    <div className='mx-auto max-w-3xl'>
+    <div className='mx-auto max-w-4xl'>
       <Tab.Group>
         <Tab.List className='flex p-1 space-x-1 bg-neutral-700 rounded-xl'>
           <Tab

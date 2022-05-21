@@ -9,12 +9,12 @@ export const Form: FC = () => {
       action={inputText.indexOf('#') !== 0 ? `#${inputText}` : inputText}
       method='post'
       onSubmit={tintShadeButton}
-      className='py-32 m-auto w-full max-w-xl'
+      className='pb-8 m-auto w-full max-w-xl md:pt-32 md:pb-16'
     >
       <div>
         <label
           htmlFor='exampleFormControlTextarea1'
-          className='inline-block pb-6 text-xl font-bold text-gray-300'
+          className='inline-block pb-6 text-lg font-bold text-gray-300 md:text-xl'
         >
           Please enter a hex color
         </label>

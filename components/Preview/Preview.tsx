@@ -19,7 +19,7 @@ export const Preview: FC = () => {
   return (
     <>
       {tints.length !== 0 && shades.length !== 0 ? (
-        <div className='mx-auto max-w-xl'>
+        <div className='mx-auto max-w-lg'>
           <div
             style={
               textBg
@@ -28,10 +28,10 @@ export const Preview: FC = () => {
                     backgroundColor: color.indexOf('#') !== 0 ? `#${color}` : color,
                   }
             }
-            className={`h-80 rounded-2xl flex justify-center items-center`}
+            className={`aspect-video rounded-2xl flex justify-center items-center`}
           >
             <p
-              className='text-2xl'
+              className='text-xl md:text-2xl'
               style={
                 textColor
                   ? { color: '#' + textColor }
