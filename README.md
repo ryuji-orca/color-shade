@@ -14,7 +14,7 @@
 
 ## 使用技術
 
--[React](https://reactjs.org/)
--[Next.js](https://nextjs.org/)
--[TypeScript](https://www.typescriptlang.org/)
--[Tailwind CSS](https://tailwindcss.com/)
+- [React](https://reactjs.org/)
+- [Next.js](https://nextjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
