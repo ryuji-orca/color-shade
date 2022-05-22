@@ -6,7 +6,7 @@ export const Seo: FC = () => {
   const defaultTitle = 'Tint & Shade Preview';
   const defaultDescription =
     '入力したカラーコードの色合いを作りどの色が背景とテキストに合うか調べることができます';
-  const ogpImage = 'https://www.tint-shade-preview.com//ogp.png';
+  const ogpImage = 'https://www.tint-shade-preview.com/ogp.png';
   return (
     <>
       <Head>
@@ -20,7 +20,7 @@ export const Seo: FC = () => {
           title: defaultTitle,
           description: defaultDescription,
           site_name: defaultTitle,
-          url: 'https://www.tint-shade-preview.com/',
+          url: 'https://www.tint-shade-preview.com',
           images: [
             {
               url: ogpImage,
