@@ -27,7 +27,7 @@ export const Seo: FC = () => {
               width: 800,
               height: 600,
               alt: defaultTitle,
-              type: 'image/jpg',
+              type: 'image/jpeg',
             },
           ],
         }}
