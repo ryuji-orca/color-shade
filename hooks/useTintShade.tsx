@@ -48,7 +48,7 @@ export const useTintShade = () => {
         setTints(newTintsColors);
         setShades(newShadesColors);
       } else {
-        toast.error('Please enter a valid hexadecimal color.');
+        toast.error('有効な16進数のカラーを入力してください');
       }
     },
     [inputText],
