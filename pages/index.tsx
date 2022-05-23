@@ -11,7 +11,7 @@ const Home: NextPage = () => {
   const tints = useRecoilValue(TintsColorAtom);
 
   return (
-    <div className='p-5 min-h-screen bg-stone-700 md:p-0'>
+    <div className='p-5 min-h-screen bg-neutral-900 md:p-0'>
       <Form />
       <Preview />
       {tints.length !== 0 && shades.length !== 0 ? <Tabs /> : null}
