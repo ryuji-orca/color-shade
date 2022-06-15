@@ -4,10 +4,9 @@
 
 @layer utilities {
   .hidden-scrollbar {
-    scrollbar-width: none; /* Firefox 対応 */
+    scrollbar-width: none;
   }
   .hidden-scrollbar::-webkit-scrollbar {
-    /* Chrome, Safari 対応 */
     display: none;
   }
 }
